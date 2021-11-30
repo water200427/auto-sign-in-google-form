@@ -30,5 +30,9 @@ function auto_generate(){
               "&entry.779228108=" + studentName +
               "&entry.2083584461=" + timeTable[setTimeTable(today.getHours())] +
               "&entry.1425418337=" + getDateInChinese(today)
-    return url
+    console.log(url)
+    var r = window.open()
+    r.location=url
+    r.document.close()
 }
+auto_generate()
