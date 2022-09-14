@@ -1,6 +1,6 @@
 function auto_generate(){
     const studentID = "01"
-    const studentName = "沈德威"
+    const studentName = "OOO"
     
     const timeTable = ["08：00~08：20","12：40~13：00","16：30 後"]
     const mode = ["viewform","formResponse"]
